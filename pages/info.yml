@@ -4,13 +4,27 @@ school: Seoul National University
 email: nemod.leo@snu.ac.kr
 mobile: +82-10-4186-7148
 
+ntp_servers:
+  - 8.8.8.8
+  - 4.4.4.4
+
+interest:
+  - asdf
+  - Medical imaging
+
+skills:
+    language: Python(2.x and 3.x) / JAVA / C++
+    framework_library: PytorchFlask / Tensorflow / Flask / Scikit-learn / Etc..(openCV, FFmpeg)
+
 education:
-    univerity:
+    - 
+        id: university
         name: Seoul National University, 	Dept. of Computer Science and Engineering
         place: Seoul, Korea
         period: Mar. 2019 ~
         note: Majoring in of Computer Science and Engineering
-    high:
+    -
+        id: high-school
         name: Incheon Academy of Science and Arts
         place: Incheon, Korea
         period: Mar. 2016 ~ Jan. 2019
@@ -96,11 +110,5 @@ achievements:
         period:
         note: Thesis= Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles= Leader and Speaker
 
-interest:
-    - asdf
-    - Medical imaging
 
-skills:
-    language: Python(2.x and 3.x) / JAVA / C++
-    framework_library: PytorchFlask / Tensorflow / Flask / Scikit-learn / Etc..(openCV, FFmpeg)
 

@@ -7,8 +7,26 @@
     <p>{{ infos.email }}</p>
     <p>{{ infos.mobile }}</p>
 
-    
-    <p>{{ infos.skills.language }}</p>
+    {% for int in infos.interest %}
+    <p>{{int}}</p>
+    {% endfor %}
 
+    <p>{{infos.skills.language}}</p>
+    <p>{{infos.skills.framework_library}}</p>
+
+    {% for edu in infos.education %}
+    <p>{{edu.id}}</p>
+    <p>{{edu.name}}</p>
+    <p>{{edu.place}}</p>
+    <p>{{edu.period}}</p>
+    <p>{{edu.note}}</p>
+    {% endfor %}
+
+    {% for exp in infos.experience %}
+    <p>{{exp.title}}</p>
+    <p>{{exp.type}}</p>
+    <p>{{exp.period}}</p>
+    <p>{{exp.note}}</p>
+    {% endfor %}
 
 {% endblock %}

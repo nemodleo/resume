@@ -7,7 +7,7 @@ from flask_frozen import Freezer # Added
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
-FLATPAGES_EXTENSION = '.md'
+FLATPAGES_EXTENSION = '.json'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
