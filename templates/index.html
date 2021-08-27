@@ -1,38 +1,67 @@
 {% extends "base.html" %}
 
-{% block content1 %}
-    <h2>{{ infos.name }}</h2>
-    <p>{{ infos.department }}</p>
-    <p>{{ infos.school }}</p>
-    <p>{{ infos.email }}</p>
-    <p>{{ infos.mobile }}</p>
+{% block content %}
+    <h1>{{ infos.name }}</h1>
+    <div class="line"></div>
 
-    {% for int in infos.interest %}
-    <p>{{int}}</p>
-    {% endfor %}
+    <div class="infos">
+        <p>{{ infos.department }}</p>
+        <p>{{ infos.school }}</p>
+        <p>{{ infos.email }}</p>
+        <p>{{ infos.mobile }}</p>
+    </div>
 
-    <p>{{infos.skills.language}}</p>
-    <p>{{infos.skills.framework_library}}</p>
+    <div class="interest">
+        <h2>Interests</h2>
+        {% for int in infos.interest %}
+        <p>{{int}}</p>
+        {% endfor %}
+    </div>
 
-    {% for edu in infos.education %}
-    <p>{{edu.id}}</p>
-    <p>{{edu.name}}</p>
-    <p>{{edu.place}}</p>
-    <p>{{edu.period}}</p>
-    <p>{{edu.note}}</p>
-    {% endfor %}
+    <div class="skills">
+        <h2>Skills</h2>
+        <p>{{infos.skills.language}}</p>
+        <p>{{infos.skills.framework_library}}</p>
+    </div>
+    <div class="line"></div>
 
-    {% for exp in infos.experience %}
-    <p>{{exp.title}}</p>
-    <p>{{exp.type}}</p>
-    <p>{{exp.period}}</p>
-    <p>{{exp.note}}</p>
-    {% endfor %}
+    <div class="edu">
+        <h2>Education</h2>
+        {% for edu in infos.education %}
+        <p class="bold">{{edu.id}}</p>
+        <div class="indent">
+            <p>{{edu.name}}</p>
+            <p>{{edu.place}}</p>
+            <p>{{edu.period}}</p>
+            <p>{{edu.note}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="line"></div>
 
-    {% for achi in infos.achievements %}
-    <p>{{achi.title}}</p>
-    <p>{{achi.period}}</p>
-    <p>{{achi.note}}</p>
-    {% endfor %}
+    <div class="exp">
+        <h2>Experiences</h2>
+        {% for exp in infos.experience %}
+        <p class="bold">{{exp.title}}</p>
+        <div class="indent">
+            <p>{{exp.type}}</p>
+            <p>{{exp.period}}</p>
+            <p>{{exp.note}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="line"></div>
+
+    <div class="achi">
+        <h2>Achievements</h2>
+        {% for achi in infos.achievements %}
+        <p class="bold">{{achi.title}}</p>
+        <div class="indent">
+            <p>{{achi.period}}</p>
+            <p>{{achi.note}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="line"></div>
 
 {% endblock %}

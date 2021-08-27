@@ -5,12 +5,13 @@
     "email": "nemod.leo@snu.ac.kr",
     "mobile": "+82-10-4186-7148",
     "interest": [
-      "asdf",
-      "Medical imaging"
+      "Medical imaging",
+      "Model optimization",
+      "Model structure"
     ],
     "skills": {
-      "language": "Python(2.x and 3.x) / JAVA / C++",
-      "framework_library": "PytorchFlask / Tensorflow / Flask / Scikit-learn / Etc..(openCV, FFmpeg)"
+      "language": "Python(2.x and 3.x) / Bash / JAVA / C++",
+      "framework_library": "Pytorch / Flask / Tensorflow / Flask / Scikit-learn / Etc..(docker, openCV, FFmpeg)"
     },
     "education": [
       {
@@ -25,7 +26,7 @@
         "name": "Incheon Academy of Science and Arts",
         "place": "Incheon, Korea",
         "period": "Mar. 2016 ~ Jan. 2019",
-        "note": null
+        "note": "SCIENCE ACADEMY SCHOOL"
       }
     ],
     "experience": [
@@ -33,19 +34,19 @@
         "title": "unMask",
         "type": "Project",
         "period": "Aug. 2021 ~ Present",
-        "note": null
+        "note": "Estimate the part of the face that is covered by the mask with WGAN-GP and Flask web serving. (I am going to be used) StyleGAN2 i2i / Korean idol actor politician style / etc"
       },
       {
         "title": "2021 SNU FastMRI challenge",
         "type": "Challenge",
         "period": "Jul. 2021 ~ Aug. 2021",
-        "note": null
+        "note": "Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(muilti coils compression with Espirit and PCA), Model structure, Model optimization"
       },
       {
         "title": "Connectome Lab Internship",
         "type": "Intern",
         "period": "Jan. 2021 ~ Jun. 2021",
-        "note": null
+        "note": "UKB/ABCD GWAS study, GANBERT study, Server sub-administrator(Server environment establishment, Management program implementation)"
       },
       {
         "title": "Development of a Drunk Identifier Using Smartphone HRM Sensor",
@@ -98,13 +99,8 @@
     ],
     "achievements": [
       {
-        "title": "Tensorflow Certification",
-        "period": "Oct. 2021",
-        "note": null
-      },
-      {
         "title": "Samsung Humantech Paper Award - Participation Award",
-        "period": null,
+        "period": "Mar. 2017 ~ Dec. 2017",
         "note": "Thesis= Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles= Leader and Speaker"
       }
     ]
