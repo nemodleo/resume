@@ -15,7 +15,7 @@ pages = FlatPages(app)
 freezer = Freezer(app)
 #markdown_manager = Markdown(app, extensions=['fenced_code'], output_format='html5',)
 
-@app.route("/")
+@app.route("/resume")
 def index():
     infos = pages.get_or_404("info")
     return render_template('index.html', infos=infos)
