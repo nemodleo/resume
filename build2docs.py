@@ -18,7 +18,6 @@ def build2docs():
         f.close()
         g = open(h, 'w',  encoding='UTF8')
         code = code.replace("/static", "/{}/static".format(git_repo))
-        code = code.replace(('<a href="/">', '<a href="/{}}/">'.format(git_repo)))
         g.write(code)
         g.close()
 
