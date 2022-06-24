@@ -39,7 +39,7 @@
         "type": "Computer Vision Rearcher (Brain Team)",
         "period": "Oct. 2021 ~ Present",
         "note": [
-          "Face Swapping (Reader); research, develop & optimize full pipeline (ex, model design, data preprocessing using ddp mp onnx)",
+          "Face Swapping (Leader); research, develop & optimize full pipeline (ex, model design, data preprocessing using ddp mp onnx)",
           "Super Resolution; evaluate and train all sr models",
           "Vision Research Framework; develop integrated research environment based on pytorch-lightening"
         ]
