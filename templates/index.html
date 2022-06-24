@@ -9,21 +9,19 @@
         <p>{{ infos.school }}</p>
         <p>{{ infos.email }}</p>
         <p>{{ infos.mobile }}</p>
+        <p>{{ infos.info }}</p>
     </div>
+    <div class="line"></div>
 
     <div class="interest">
-        <h2>Interests</h2>
+        <h2>Recently Interests</h2>
         {% for int in infos.interest %}
         <p>{{int}}</p>
         {% endfor %}
     </div>
-
-    <div class="skills">
-        <h2>Skills</h2>
-        <p>{{infos.skills.language}}</p>
-        <p>{{infos.skills.framework_library}}</p>
-    </div>
     <div class="line"></div>
+    
+
 
     <div class="edu">
         <h2>Education</h2>
@@ -37,8 +35,20 @@
         </div>
         {% endfor %}
     </div>
-    <div class="line"></div>
 
+    <div class="work_exp">
+        <h2>Work Experiences</h2>
+        {% for exp in infos.work_experience %}
+        <p class="bold">{{exp.title}}</p>
+        <div class="indent">
+            <p>{{exp.type}}</p>
+            <p>{{exp.period}}</p>
+            {% for note in exp.note %}
+                <p>{{note}}</p> 
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
     <div class="exp">
         <h2>Experiences</h2>
         {% for exp in infos.experience %}
@@ -49,6 +59,17 @@
             <p>{{exp.note}}</p>
         </div>
         {% endfor %}
+    </div>
+    <div class="line"></div>
+
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <p>{{infos.skills.language}}</p>
+        <p>{{infos.skills.ml}}</p>
+        <p>{{infos.skills.optimization}}</p>
+        <p>{{infos.skills.web}}</p>
+        <p>{{infos.skills.infrastructure}}</p>
     </div>
     <div class="line"></div>
 
