@@ -7,8 +7,8 @@
     "info": "현역, 훈련소 수료",
     "interest": [
       "IMPACT",
-      "ASAP // Optimization(CUDA)",
-      "RESEARCH // Causal Representation learning"
+      "ASAP (Optimization)",
+      "RESEARCH (Causal Representation learning)"
     ],
     "skills": {
       "language": "Python(3.x and 2.x) / Bash / C++ / JAVA",
@@ -36,7 +36,7 @@
     "work_experience": [
       {
         "title": "LionRocket",
-        "type": "Computer Vision Rearcher (Brain Team)",
+        "type": "Computer Vision Researcher (Brain Team)",
         "period": "Oct. 2021 ~ Present",
         "note": [
           "Face Swapping (Leader); research, develop & optimize full pipeline (ex, model design, data preprocessing using ddp mp onnx)",
@@ -56,7 +56,7 @@
         "title": "2021 SNU FastMRI challenge",
         "type": "Challenge",
         "period": "Jul. 2021 ~ Aug. 2021",
-        "note": "Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(muilti coils compression with Espirit and PCA), Model structure, Model optimization"
+        "note": "Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(multi coils compression with Espirit and PCA), Model structure, Model optimization"
       },
       {
         "title": "Connectome Lab Internship",
@@ -101,7 +101,7 @@
         "note": "Participated in the Global Research Program and took an intensive 6-day course on Computational Neuroscience(Minjoon Kouh, Associate Professor from Drew University in Madison, NJ, USA)."
       },
       {
-        "title": "(Research) A Note on Plurality method and Borda count methond",
+        "title": "(Research) A Note on Plurality method and Borda count method",
         "type": "Research",
         "period": "Mar. 2016 ~ Dec.2016",
         "note": "Instructed by Prof. Nahmwoo Hahn of Incheon National University."
