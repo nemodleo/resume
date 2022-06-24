@@ -1,9 +1,11 @@
 # resume
+Frozen-Flask(static) based web page
+
 https://nemodleo.github.io/resume/
 
-## Run 
+## Env
 ```
-python app.py 
+pip install -r requirements.txt
 ```
 
 ## build
@@ -11,9 +13,14 @@ python app.py
 python app.py build
 ```
 
-### github page
+## Run 
 ```
-# because of github repo
+python app.py 
+```
+
+## Push to github page
+```
+# converting addition process because of github repo
 python build2docs.py
 
 # git push to main

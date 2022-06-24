@@ -7,7 +7,7 @@ def build2docs():
     print(git_repo)
 
     if Path("./docs").exists():
-        os.rmdir("./docs")
+        shutil.rmtree("./docs")
 
     html = [file for file in glob.glob("build/**", recursive=True) if file.endswith(".html")]
     print(html)
