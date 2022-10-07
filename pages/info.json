@@ -1,29 +1,21 @@
 {
     "name": "HYUN PARK",
-    "department": "Dept. of Computer Science and Engineering",
-    "school": "Seoul National University",
-    "email": "nemod.leo@snu.ac.kr",
+    "email": "nemod.leo@gmail.com",
     "mobile": "+82-10-4186-7148",
-    "info": "현역, 훈련소 수료",
+    "info": "현역, 훈련소 수료함",
+    "github": "https://github.com/nemodleo/",
     "interest": [
-      "IMPACT",
-      "ASAP (Optimization)",
-      "RESEARCH (Causal Representation learning)"
+      "impact on users",
+      "impact on academia",
+      "impact on humanity"
     ],
-    "skills": {
-      "language": "Python(3.x and 2.x) / Bash / C++ / JAVA",
-      "ml": "Pytorch / PyTorch Lightning / Tensorflow / Scikit-learn",
-      "optimization": "Cupy / ONNX / TensorRT / Numba / Dask", 
-      "web": "Streamlit / Flask",
-      "infrastructure" : "Docker"
-    },
     "education": [
       {
         "id": "University",
         "name": "Seoul National University, Dept. of Computer Science and Engineering",
         "place": "Seoul, Korea",
         "period": "Mar. 2019 ~",
-        "note": "Majoring in of Computer Science and Engineering (5학기 수료)"
+        "note": "Majoring in Computer Science and Engineering (3학년 1학기 수료)"
       },
       {
         "id": "High-school",
@@ -33,19 +25,55 @@
         "note": "SCIENCE ACADEMY SCHOOL"
       }
     ],
-    "work_experience": [
+    "research_experience": [
       {
         "title": "LionRocket",
-        "type": "Computer Vision Researcher (Brain Team)",
+        "type": "Company Vision Researcher (Brain Team)",
         "period": "Oct. 2021 ~ Present",
         "note": [
-          "Face Swapping (Leader); research, develop & optimize full pipeline (ex, model design, data preprocessing using ddp mp onnx)",
-          "Super Resolution; evaluate and train all sr models",
-          "Vision Research Framework; develop integrated research environment based on pytorch-lightening"
+          "Face Swapping (Leader): research, develop & optimize a full pipeline (ex, model design, data preprocessing and inference optimization)",
+          "Super Resolution: improved the resolution of the video using a GPEN-based model",
+          "Vision Research Framework: developed a PyTorch-Lightning-based integrated research environment"
         ]
+      },
+      {
+        "title": "CoSwap: will be available later",
+        "type": "Research",
+        "period": "Oct. 2022 ~ Present",
+        "note": ["The three are doing research and writing a paper."]
+      },
+      {
+        "title": "Connectome Lab Internship",
+        "type": "Intern",
+        "period": "Jan. 2021 ~ Jun. 2021",
+        "note": ["UKB/ABCD GWAS study, GANBERT study, Server sub-administrator(establishment server environment, implementation management program), tried TACC(slurm)."]
+      },
+      {
+        "title": "Development of a Wearable Mouse Using Inertial Sensors",
+        "type": "Research",
+        "period": "Jan. 2018 ~ Jul. 2018",
+        "note": ["Developed Air Mouse using Tensorflow(1.x) and IMU Sensor. Recognize behavior through AI."]
+      },
+      {
+        "title": "Development of a Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition",
+        "type": "Research",
+        "period": "Mar. 2017 ~ Dec. 2017",
+        "note": ["Instructed by Prof. Jongseok Lee of Yonsei University. The role of a team(4 person) leader."]
+      },
+      {
+        "title": "(Research) A Note on Plurality method and Borda count method",
+        "type": "Research",
+        "period": "Mar. 2016 ~ Dec.2016",
+        "note": ["Instructed by Prof. Nahmwoo Hahn of Incheon National University."]
       }
     ],
-    "experience": [
+    "project_experience": [
+      {
+        "title": "Ai media art",
+        "type": "Project",
+        "period": "Oct. 2022 ~ Present",
+        "note": "The role of a company-study(7 members) leader. Make and Exhibit media art work using AI."
+      },
       {
         "title": "unMask",
         "type": "Project",
@@ -53,58 +81,34 @@
         "note": "Estimate the part of the face that is covered by the mask."
       },
       {
+        "title": "2022 SNU FastMRI challenge",
+        "type": "Challenge",
+        "period": "Jul. 2022 ~ Aug. 2022",
+        "note": "Duya Team(2 people)"
+      },
+      {
         "title": "2021 SNU FastMRI challenge",
         "type": "Challenge",
         "period": "Jul. 2021 ~ Aug. 2021",
-        "note": "Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(multi coils compression with Espirit and PCA), Model structure, Model optimization"
-      },
-      {
-        "title": "Connectome Lab Internship",
-        "type": "Intern",
-        "period": "Jan. 2021 ~ Jun. 2021",
-        "note": "UKB/ABCD GWAS study, GANBERT study, Server sub-administrator(establishment server environment, implementation management program), tried TACC(slurm)"
+        "note": "Duya Team(2 people), Study(MRI/Signal/Sampling), Data preprocessing(multi coils compression with Espirit and PCA), Model structure, Model optimization"
       },
       {
         "title": "Extracting instrument sounds from songs through deep learning",
         "type": "Project",
         "period": "Mar. 2019 ~ Aug. 2019",
-        "note": "At the start-up club, PlusIt, participated in the team project. Especially, I did data design & processing."
+        "note": "At the start-up club, PlusIt, participated in a team project. In particular, I did data design and processing."
       },
       {
-        "title": "Development of Wearable Mouse Using Inertial Sensors",
-        "type": "Research",
-        "period": "Jan. 2018 ~ Jul. 2018",
-        "note": "Developed Air Mouse using Tensorflow(1.x) and IMU Sensor. I wrote my graduation thesis through this personal research."
-      },
-      {
-        "title": "Creating a music genre Classifier through multi-dimensional entropy analysis",
+        "title": "Creating a music genre classifier through multi-dimensional entropy analysis",
         "type": "Project",
         "period": "Aug. 2017 ~ Dec.2017",
-        "note": "As a team leader, by defining various entropy and applying it to machine learning, the music genre Classifier produced with the best-learned model."
+        "note": "As a team leader, by defining various entropy and applying it to machine learning, the music genre classifier produced the best-learned model."
       },
       {
         "title": "Hand coding in Hangeul",
         "type": "Project",
         "period": "Aug. 2017 ~ Dec.2017",
-        "note": "Produces a program when you write letters through a self-made pen, the recognized letters are printed and \t\texecutes commands."
-      },
-      {
-        "title": "Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition",
-        "type": "Research",
-        "period": "Mar. 2017 ~ Dec. 2017",
-        "note": "Instructed by Prof. Jongseok Lee of Yonsei University. The role of a team leader who leads a group of four members."
-      },
-      {
-        "title": "Computational Neuroscience with Matlab/Octave",
-        "type": "Research",
-        "period": "Jan.2017 ~ Jan.2017",
-        "note": "Participated in the Global Research Program and took an intensive 6-day course on Computational Neuroscience(Minjoon Kouh, Associate Professor from Drew University in Madison, NJ, USA)."
-      },
-      {
-        "title": "(Research) A Note on Plurality method and Borda count method",
-        "type": "Research",
-        "period": "Mar. 2016 ~ Dec.2016",
-        "note": "Instructed by Prof. Nahmwoo Hahn of Incheon National University."
+        "note": "As a team leader, produced a program where you write letters with a self-made pen. the recognized letters are printed and executed commands."
       }
     ],
     "achievements": [
@@ -116,7 +120,14 @@
       {
         "title": "Samsung Humantech Paper Award - Participation Award",
         "period": "Mar. 2017 ~ Dec. 2017",
-        "note": "Thesis= Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles= Leader and Speaker"
+        "note": "Paper: Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition. Roles: Leader and Speaker"
       }
-    ]
+    ],
+    "skills": {
+      "language": "Python(3.x and 2.x) / Bash / C++",
+      "ml": "Pytorch / PyTorch Lightning / Tensorflow / Scikit-learn",
+      "optimization": "Cupy / ONNX / TensorRT / Numba", 
+      "web": "Streamlit / Flask",
+      "infrastructure" : "Docker"
+    }
   }
